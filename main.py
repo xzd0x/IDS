@@ -174,7 +174,7 @@ async def health_check(request):
     """Health check endpoint"""
     return web.Response(text='Bot is running!')
 
-async def init_app():
+def init_app():
     """Initialize the web application"""
     app = web.Application()
     app.router.add_post('/', webhook_handler)
