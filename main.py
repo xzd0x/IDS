@@ -181,15 +181,14 @@ def init_app():
     app.router.add_get('/health', health_check)
     return app
 
-async def cleanup(app):
+def cleanup(app):
     """Cleanup resources"""
-    await bot.close_session()
+    async def _cleanup():
+        await bot.close_session()
+    return _cleanup()
 
 if __name__ == '__main__':
     app = init_app()
-    
-    # Add cleanup handler
-    app.on_cleanup.append(cleanup)
     
     # Run the web server
     web.run_app(app, host='0.0.0.0', port=8000)
