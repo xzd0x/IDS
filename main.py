@@ -50,18 +50,18 @@ class TelegramVehicleBot:
             logger.error(f'Error sending message: {e}')
     
     async def fetch_vehicles_data(self):
-        """Fetch vehicle data from GitHub"""
-        await self.init_session()
-        
+        """Fetch vehicle data from local file"""
         try:
-            async with self.session.get(VEHICLES_JSON_URL) as response:
-                if response.ok:
-                    return await response.json()
-                else:
-                    logger.error(f'Failed to fetch vehicles data: {response.status}')
-                    return None
+            with open('data/vehicles.json', 'r', encoding='utf-8') as file:
+                return json.load(file)
+        except FileNotFoundError:
+            logger.error('vehicles.json file not found in data/ directory')
+            return None
+        except json.JSONDecodeError as e:
+            logger.error(f'Error parsing JSON file: {e}')
+            return None
         except Exception as e:
-            logger.error(f'Error fetching vehicles data: {e}')
+            logger.error(f'Error reading vehicles data: {e}')
             return None
     
     def search_vehicle(self, vehicles, query):
