@@ -6,7 +6,7 @@ import logging
 
 # Configuration
 import os
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8457330498:AAEIA1VsEi3T51JrOhO0STAoBcQMUUKZbf0')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', 'takeadihhhh')
 VEHICLES_JSON_URL = os.environ.get('VEHICLES_JSON_URL', 'https://raw.githubusercontent.com/xzd0x/IDS/refs/heads/main/data/vehicles.json')
 TELEGRAM_API_URL = f'https://api.telegram.org/bot{BOT_TOKEN}'
 
@@ -48,6 +48,30 @@ class TelegramVehicleBot:
                     logger.error(f'Failed to send message: {error_text}')
         except Exception as e:
             logger.error(f'Error sending message: {e}')
+    
+    async def send_photo(self, chat_id, photo_url, caption=None, parse_mode=None):
+        """Send photo to Telegram chat"""
+        await self.init_session()
+        
+        url = f'{TELEGRAM_API_URL}/sendPhoto'
+        payload = {
+            'chat_id': chat_id,
+            'photo': photo_url
+        }
+        
+        if caption:
+            payload['caption'] = caption
+        
+        if parse_mode:
+            payload['parse_mode'] = parse_mode
+        
+        try:
+            async with self.session.post(url, json=payload) as response:
+                if not response.ok:
+                    error_text = await response.text()
+                    logger.error(f'Failed to send photo: {error_text}')
+        except Exception as e:
+            logger.error(f'Error sending photo: {e}')
     
     async def fetch_vehicles_data(self):
         """Fetch vehicle data from local file"""
@@ -105,6 +129,10 @@ class TelegramVehicleBot:
         
         return info
     
+    def get_vehicle_image_url(self, vehicle_id):
+        """Generate vehicle image URL"""
+        return f"http://gta.rockstarvision.com/vehicleviewer/#sa/{vehicle_id}"
+    
     async def handle_vehicle_search(self, chat_id, query):
         """Handle vehicle search request"""
         vehicles = await self.fetch_vehicles_data()
@@ -117,7 +145,22 @@ class TelegramVehicleBot:
         
         if result:
             vehicle_info = self.format_vehicle_info(result)
-            await self.send_message(chat_id, vehicle_info, 'Markdown')
+            vehicle_id = result.get('id')
+            
+            if vehicle_id:
+                # Generate image URL
+                image_url = self.get_vehicle_image_url(vehicle_id)
+                
+                # Try to send as photo with caption
+                try:
+                    await self.send_photo(chat_id, image_url, vehicle_info, 'Markdown')
+                except Exception as e:
+                    # If photo fails, send text with image link
+                    logger.error(f'Failed to send photo: {e}')
+                    vehicle_info += f"\n\n🖼️ [View Vehicle Image]({image_url})"
+                    await self.send_message(chat_id, vehicle_info, 'Markdown')
+            else:
+                await self.send_message(chat_id, vehicle_info, 'Markdown')
         else:
             await self.send_message(chat_id, f'❌ No vehicle found for: "{query}"\n\nTry searching by ID, name, or hex value.')
     
