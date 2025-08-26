@@ -5,9 +5,8 @@ from aiohttp import web
 import logging
 
 # Configuration
-import os
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'takeadihhhh')
-VEHICLES_JSON_URL = os.environ.get('VEHICLES_JSON_URL', 'https://raw.githubusercontent.com/xzd0x/IDS/refs/heads/main/data/vehicles.json')
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
+VEHICLES_JSON_URL = 'https://raw.githubusercontent.com/xzd0x/IDS/refs/heads/main/data/vehicles.json'
 TELEGRAM_API_URL = f'https://api.telegram.org/bot{BOT_TOKEN}'
 
 # Setup logging
@@ -49,43 +48,19 @@ class TelegramVehicleBot:
         except Exception as e:
             logger.error(f'Error sending message: {e}')
     
-    async def send_photo(self, chat_id, photo_url, caption=None, parse_mode=None):
-        """Send photo to Telegram chat"""
+    async def fetch_vehicles_data(self):
+        """Fetch vehicle data from GitHub"""
         await self.init_session()
         
-        url = f'{TELEGRAM_API_URL}/sendPhoto'
-        payload = {
-            'chat_id': chat_id,
-            'photo': photo_url
-        }
-        
-        if caption:
-            payload['caption'] = caption
-        
-        if parse_mode:
-            payload['parse_mode'] = parse_mode
-        
         try:
-            async with self.session.post(url, json=payload) as response:
-                if not response.ok:
-                    error_text = await response.text()
-                    logger.error(f'Failed to send photo: {error_text}')
+            async with self.session.get(VEHICLES_JSON_URL) as response:
+                if response.ok:
+                    return await response.json()
+                else:
+                    logger.error(f'Failed to fetch vehicles data: {response.status}')
+                    return None
         except Exception as e:
-            logger.error(f'Error sending photo: {e}')
-    
-    async def fetch_vehicles_data(self):
-        """Fetch vehicle data from local file"""
-        try:
-            with open('data/vehicles.json', 'r', encoding='utf-8') as file:
-                return json.load(file)
-        except FileNotFoundError:
-            logger.error('vehicles.json file not found in data/ directory')
-            return None
-        except json.JSONDecodeError as e:
-            logger.error(f'Error parsing JSON file: {e}')
-            return None
-        except Exception as e:
-            logger.error(f'Error reading vehicles data: {e}')
+            logger.error(f'Error fetching vehicles data: {e}')
             return None
     
     def search_vehicle(self, vehicles, query):
@@ -129,10 +104,6 @@ class TelegramVehicleBot:
         
         return info
     
-    def get_vehicle_image_url(self, vehicle_id):
-        """Generate vehicle image URL"""
-        return f"http://gta.rockstarvision.com/vehicleviewer/#sa/{vehicle_id}"
-    
     async def handle_vehicle_search(self, chat_id, query):
         """Handle vehicle search request"""
         vehicles = await self.fetch_vehicles_data()
@@ -145,22 +116,7 @@ class TelegramVehicleBot:
         
         if result:
             vehicle_info = self.format_vehicle_info(result)
-            vehicle_id = result.get('id')
-            
-            if vehicle_id:
-                # Generate image URL
-                image_url = self.get_vehicle_image_url(vehicle_id)
-                
-                # Try to send as photo with caption
-                try:
-                    await self.send_photo(chat_id, image_url, vehicle_info, 'Markdown')
-                except Exception as e:
-                    # If photo fails, send text with image link
-                    logger.error(f'Failed to send photo: {e}')
-                    vehicle_info += f"\n\n🖼️ [View Vehicle Image]({image_url})"
-                    await self.send_message(chat_id, vehicle_info, 'Markdown')
-            else:
-                await self.send_message(chat_id, vehicle_info, 'Markdown')
+            await self.send_message(chat_id, vehicle_info, 'Markdown')
         else:
             await self.send_message(chat_id, f'❌ No vehicle found for: "{query}"\n\nTry searching by ID, name, or hex value.')
     
@@ -217,21 +173,22 @@ async def health_check(request):
     """Health check endpoint"""
     return web.Response(text='Bot is running!')
 
-def init_app():
+async def init_app():
     """Initialize the web application"""
     app = web.Application()
     app.router.add_post('/', webhook_handler)
     app.router.add_get('/health', health_check)
     return app
 
-def cleanup(app):
+async def cleanup(app):
     """Cleanup resources"""
-    async def _cleanup():
-        await bot.close_session()
-    return _cleanup()
+    await bot.close_session()
 
 if __name__ == '__main__':
     app = init_app()
+    
+    # Add cleanup handler
+    app.on_cleanup.append(cleanup)
     
     # Run the web server
     web.run_app(app, host='0.0.0.0', port=8000)
