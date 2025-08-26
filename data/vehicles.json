@@ -1,1 +1,1706 @@
-
+[
+  {
+    "id": "400",
+    "hex": "190",
+    "name": "Landstalker",
+    "model": "landstal",
+    "gxt": "LANDSTK",
+    "notes": null
+  },
+  {
+    "id": "401",
+    "hex": "191",
+    "name": "Bravura",
+    "model": "bravura",
+    "gxt": "BRAVURA",
+    "notes": null
+  },
+  {
+    "id": "402",
+    "hex": "192",
+    "name": "Buffalo",
+    "model": "buffalo",
+    "gxt": "BUFFALO",
+    "notes": null
+  },
+  {
+    "id": "403",
+    "hex": "193",
+    "name": "Linerunner",
+    "model": "linerun",
+    "gxt": "LINERUN",
+    "notes": null
+  },
+  {
+    "id": "404",
+    "hex": "194",
+    "name": "Perennial",
+    "model": "peren",
+    "gxt": "PEREN",
+    "notes": null
+  },
+  {
+    "id": "405",
+    "hex": "195",
+    "name": "Sentinel",
+    "model": "sentinel",
+    "gxt": "SENTINL",
+    "notes": null
+  },
+  {
+    "id": "406",
+    "hex": "196",
+    "name": "Dumper",
+    "model": "dumper",
+    "gxt": "DUMPER",
+    "notes": null
+  },
+  {
+    "id": "407",
+    "hex": "197",
+    "name": "Fire Truck",
+    "model": "firetruk",
+    "gxt": "FIRETRK",
+    "notes": null
+  },
+  {
+    "id": "408",
+    "hex": "198",
+    "name": "Trashmaster",
+    "model": "trash",
+    "gxt": "TRASHM",
+    "notes": null
+  },
+  {
+    "id": "409",
+    "hex": "199",
+    "name": "Stretch",
+    "model": "stretch",
+    "gxt": "STRETCH",
+    "notes": null
+  },
+  {
+    "id": "410",
+    "hex": "19A",
+    "name": "Manana",
+    "model": "manana",
+    "gxt": "MANANA",
+    "notes": null
+  },
+  {
+    "id": "411",
+    "hex": "19B",
+    "name": "Infernus",
+    "model": "infernus",
+    "gxt": "INFERNU",
+    "notes": null
+  },
+  {
+    "id": "412",
+    "hex": "19C",
+    "name": "Voodoo",
+    "model": "voodoo",
+    "gxt": "VOODOO",
+    "notes": null
+  },
+  {
+    "id": "413",
+    "hex": "19D",
+    "name": "Pony",
+    "model": "pony",
+    "gxt": "PONY",
+    "notes": null
+  },
+  {
+    "id": "414",
+    "hex": "19E",
+    "name": "Mule",
+    "model": "mule",
+    "gxt": "MULE",
+    "notes": null
+  },
+  {
+    "id": "415",
+    "hex": "19F",
+    "name": "Cheetah",
+    "model": "cheetah",
+    "gxt": "CHEETAH",
+    "notes": null
+  },
+  {
+    "id": "416",
+    "hex": "1A0",
+    "name": "Ambulance",
+    "model": "ambulan",
+    "gxt": "AMBULAN",
+    "notes": "+20 HP"
+  },
+  {
+    "id": "417",
+    "hex": "1A1",
+    "name": "Leviathan",
+    "model": "leviathn",
+    "gxt": "LEVIATH",
+    "notes": null
+  },
+  {
+    "id": "418",
+    "hex": "1A2",
+    "name": "Moonbeam",
+    "model": "moonbeam",
+    "gxt": "MOONBM",
+    "notes": null
+  },
+  {
+    "id": "419",
+    "hex": "1A3",
+    "name": "Esperanto",
+    "model": "esperant",
+    "gxt": "ESPERAN",
+    "notes": null
+  },
+  {
+    "id": "420",
+    "hex": "1A4",
+    "name": "Taxi",
+    "model": "taxi",
+    "gxt": "TAXI",
+    "notes": "+12 dollars"
+  },
+  {
+    "id": "421",
+    "hex": "1A5",
+    "name": "Washington",
+    "model": "washing",
+    "gxt": "WASHING",
+    "notes": null
+  },
+  {
+    "id": "422",
+    "hex": "1A6",
+    "name": "Bobcat",
+    "model": "bobcat",
+    "gxt": "BOBCAT",
+    "notes": null
+  },
+  {
+    "id": "423",
+    "hex": "1A7",
+    "name": "Mr. Whoopee",
+    "model": "mrwhoop",
+    "gxt": "WHOOPEE",
+    "notes": null
+  },
+  {
+    "id": "424",
+    "hex": "1A8",
+    "name": "BF Injection",
+    "model": "bfinject",
+    "gxt": "BFINJC",
+    "notes": null
+  },
+  {
+    "id": "425",
+    "hex": "1A9",
+    "name": "Hunter",
+    "model": "hunter",
+    "gxt": "HUNTER",
+    "notes": null
+  },
+  {
+    "id": "426",
+    "hex": "1AA",
+    "name": "Premier",
+    "model": "premier",
+    "gxt": "PREMIER",
+    "notes": null
+  },
+  {
+    "id": "427",
+    "hex": "1AB",
+    "name": "Enforcer",
+    "model": "enforcer",
+    "gxt": "ENFORCR",
+    "notes": "full armour"
+  },
+  {
+    "id": "428",
+    "hex": "1AC",
+    "name": "Securicar",
+    "model": "securica",
+    "gxt": "SECURI",
+    "notes": null
+  },
+  {
+    "id": "429",
+    "hex": "1AD",
+    "name": "Banshee",
+    "model": "banshee",
+    "gxt": "BANSHEE",
+    "notes": null
+  },
+  {
+    "id": "430",
+    "hex": "1AE",
+    "name": "Predator",
+    "model": "predator",
+    "gxt": "PREDATR",
+    "notes": null
+  },
+  {
+    "id": "431",
+    "hex": "1AF",
+    "name": "Bus",
+    "model": "bus",
+    "gxt": "BUS",
+    "notes": null
+  },
+  {
+    "id": "432",
+    "hex": "1B0",
+    "name": "Rhino",
+    "model": "rhino",
+    "gxt": "RHINO",
+    "notes": null
+  },
+  {
+    "id": "433",
+    "hex": "1B1",
+    "name": "Barracks",
+    "model": "barracks",
+    "gxt": "BARRCKS",
+    "notes": null
+  },
+  {
+    "id": "434",
+    "hex": "1B2",
+    "name": "Hotknife",
+    "model": "hotknife",
+    "gxt": "HOTKNIF",
+    "notes": null
+  },
+  {
+    "id": "435",
+    "hex": "1B3",
+    "name": "ARTICT1",
+    "model": "artict1",
+    "gxt": "ARTICT1",
+    "notes": null
+  },
+  {
+    "id": "436",
+    "hex": "1B4",
+    "name": "Previon",
+    "model": "previon",
+    "gxt": "PREVION",
+    "notes": null
+  },
+  {
+    "id": "437",
+    "hex": "1B5",
+    "name": "Coach",
+    "model": "coach",
+    "gxt": "COACH",
+    "notes": null
+  },
+  {
+    "id": "438",
+    "hex": "1B6",
+    "name": "Cabbie",
+    "model": "cabbie",
+    "gxt": "CABBIE",
+    "notes": "+12 dollars"
+  },
+  {
+    "id": "439",
+    "hex": "1B7",
+    "name": "Stallion",
+    "model": "stallion",
+    "gxt": "STALION",
+    "notes": null
+  },
+  {
+    "id": "440",
+    "hex": "1B8",
+    "name": "Rumpo",
+    "model": "rumpo",
+    "gxt": "RUMPO",
+    "notes": null
+  },
+  {
+    "id": "441",
+    "hex": "1B9",
+    "name": "RC Bandit",
+    "model": "rcbandit",
+    "gxt": "RCBANDT",
+    "notes": null
+  },
+  {
+    "id": "442",
+    "hex": "1BA",
+    "name": "Romero",
+    "model": "romero",
+    "gxt": "ROMERO",
+    "notes": null
+  },
+  {
+    "id": "443",
+    "hex": "1BB",
+    "name": "Packer",
+    "model": "packer",
+    "gxt": "PACKER",
+    "notes": null
+  },
+  {
+    "id": "444",
+    "hex": "1BC",
+    "name": "Monster",
+    "model": "monster",
+    "gxt": "MONSTER",
+    "notes": null
+  },
+  {
+    "id": "445",
+    "hex": "1BD",
+    "name": "Admiral",
+    "model": "admiral",
+    "gxt": "ADMIRAL",
+    "notes": null
+  },
+  {
+    "id": "446",
+    "hex": "1BE",
+    "name": "Squalo",
+    "model": "squalo",
+    "gxt": "SQUALO",
+    "notes": null
+  },
+  {
+    "id": "447",
+    "hex": "1BF",
+    "name": "Seasparrow",
+    "model": "seaspar",
+    "gxt": "SEASPAR",
+    "notes": null
+  },
+  {
+    "id": "448",
+    "hex": "1C0",
+    "name": "Pizzaboy",
+    "model": "pizzaboy",
+    "gxt": "PIZZABO",
+    "notes": null
+  },
+  {
+    "id": "449",
+    "hex": "1C1",
+    "name": "Tram",
+    "model": "tram",
+    "gxt": "TRAM",
+    "notes": null
+  },
+  {
+    "id": "450",
+    "hex": "1C2",
+    "name": "ARTICT2",
+    "model": "artict2",
+    "gxt": "ARTICT2",
+    "notes": null
+  },
+  {
+    "id": "451",
+    "hex": "1C3",
+    "name": "Turismo",
+    "model": "turismo",
+    "gxt": "TURISMO",
+    "notes": null
+  },
+  {
+    "id": "452",
+    "hex": "1C4",
+    "name": "Speeder",
+    "model": "speeder",
+    "gxt": "SPEEDER",
+    "notes": null
+  },
+  {
+    "id": "453",
+    "hex": "1C5",
+    "name": "Reefer",
+    "model": "reefer",
+    "gxt": "REEFER",
+    "notes": null
+  },
+  {
+    "id": "454",
+    "hex": "1C6",
+    "name": "Tropic",
+    "model": "tropic",
+    "gxt": "TROPIC",
+    "notes": null
+  },
+  {
+    "id": "455",
+    "hex": "1C7",
+    "name": "Flatbed",
+    "model": "flatbed",
+    "gxt": "FLATBED",
+    "notes": null
+  },
+  {
+    "id": "456",
+    "hex": "1C8",
+    "name": "Yankee",
+    "model": "yankee",
+    "gxt": "YANKEE",
+    "notes": null
+  },
+  {
+    "id": "457",
+    "hex": "1C9",
+    "name": "Caddy",
+    "model": "caddy",
+    "gxt": "CADDY",
+    "notes": "Golf Club"
+  },
+  {
+    "id": "458",
+    "hex": "1CA",
+    "name": "Solair",
+    "model": "solair",
+    "gxt": "SOLAIR",
+    "notes": null
+  },
+  {
+    "id": "459",
+    "hex": "1CB",
+    "name": "Berkleys RC Van",
+    "model": "topfun",
+    "gxt": "TOPFUN",
+    "notes": null
+  },
+  {
+    "id": "460",
+    "hex": "1CC",
+    "name": "Skimmer",
+    "model": "skimmer",
+    "gxt": "SKIMMER",
+    "notes": null
+  },
+  {
+    "id": "461",
+    "hex": "1CD",
+    "name": "PCJ-600",
+    "model": "pcj600",
+    "gxt": "PCJ600",
+    "notes": null
+  },
+  {
+    "id": "462",
+    "hex": "1CE",
+    "name": "Faggio",
+    "model": "faggio",
+    "gxt": "FAGGIO",
+    "notes": null
+  },
+  {
+    "id": "463",
+    "hex": "1CF",
+    "name": "Freeway",
+    "model": "freeway",
+    "gxt": "FREEWAY",
+    "notes": null
+  },
+  {
+    "id": "464",
+    "hex": "1D0",
+    "name": "RC Baron",
+    "model": "rcbaron",
+    "gxt": "RCBARON",
+    "notes": null
+  },
+  {
+    "id": "465",
+    "hex": "1D1",
+    "name": "RC Raider",
+    "model": "rcraider",
+    "gxt": "RCRAIDE",
+    "notes": null
+  },
+  {
+    "id": "466",
+    "hex": "1D2",
+    "name": "Glendale",
+    "model": "glendale",
+    "gxt": "GLENDAL",
+    "notes": null
+  },
+  {
+    "id": "467",
+    "hex": "1D3",
+    "name": "Oceanic",
+    "model": "oceanic",
+    "gxt": "OCEANIC",
+    "notes": null
+  },
+  {
+    "id": "468",
+    "hex": "1D4",
+    "name": "Sanchez",
+    "model": "sanchez",
+    "gxt": "SANCHEZ",
+    "notes": null
+  },
+  {
+    "id": "469",
+    "hex": "1D5",
+    "name": "Sparrow",
+    "model": "sparrow",
+    "gxt": "SPARROW",
+    "notes": null
+  },
+  {
+    "id": "470",
+    "hex": "1D6",
+    "name": "Patriot",
+    "model": "patriot",
+    "gxt": "PATRIOT",
+    "notes": null
+  },
+  {
+    "id": "471",
+    "hex": "1D7",
+    "name": "Quadbike",
+    "model": "quad",
+    "gxt": "QUAD",
+    "notes": null
+  },
+  {
+    "id": "472",
+    "hex": "1D8",
+    "name": "Coastguard",
+    "model": "coastg",
+    "gxt": "COASTG",
+    "notes": null
+  },
+  {
+    "id": "473",
+    "hex": "1D9",
+    "name": "Dinghy",
+    "model": "dinghy",
+    "gxt": "DINGHY",
+    "notes": null
+  },
+  {
+    "id": "474",
+    "hex": "1DA",
+    "name": "Hermes",
+    "model": "hermes",
+    "gxt": "HERMES",
+    "notes": null
+  },
+  {
+    "id": "475",
+    "hex": "1DB",
+    "name": "Sabre",
+    "model": "sabre",
+    "gxt": "SABRE",
+    "notes": null
+  },
+  {
+    "id": "476",
+    "hex": "1DC",
+    "name": "Rustler",
+    "model": "rustler",
+    "gxt": "RUSTLER",
+    "notes": null
+  },
+  {
+    "id": "477",
+    "hex": "1DD",
+    "name": "ZR-350",
+    "model": "zr350",
+    "gxt": "ZR350",
+    "notes": null
+  },
+  {
+    "id": "478",
+    "hex": "1DE",
+    "name": "Walton",
+    "model": "walton",
+    "gxt": "WALTON",
+    "notes": null
+  },
+  {
+    "id": "479",
+    "hex": "1DF",
+    "name": "Regina",
+    "model": "regina",
+    "gxt": "REGINA",
+    "notes": null
+  },
+  {
+    "id": "480",
+    "hex": "1E0",
+    "name": "Comet",
+    "model": "comet",
+    "gxt": "COMET",
+    "notes": null
+  },
+  {
+    "id": "481",
+    "hex": "1E1",
+    "name": "BMX",
+    "model": "bmx",
+    "gxt": "BMX",
+    "notes": null
+  },
+  {
+    "id": "482",
+    "hex": "1E2",
+    "name": "Burrito",
+    "model": "burrito",
+    "gxt": "BURRITO",
+    "notes": null
+  },
+  {
+    "id": "483",
+    "hex": "1E3",
+    "name": "Camper",
+    "model": "camper",
+    "gxt": "CAMPER",
+    "notes": null
+  },
+  {
+    "id": "484",
+    "hex": "1E4",
+    "name": "Marquis",
+    "model": "marquis",
+    "gxt": "MARQUIS",
+    "notes": null
+  },
+  {
+    "id": "485",
+    "hex": "1E5",
+    "name": "Baggage",
+    "model": "baggage",
+    "gxt": "BAGGAGE",
+    "notes": null
+  },
+  {
+    "id": "486",
+    "hex": "1E6",
+    "name": "Dozer",
+    "model": "dozer",
+    "gxt": "DOZER",
+    "notes": null
+  },
+  {
+    "id": "487",
+    "hex": "1E7",
+    "name": "Maverick",
+    "model": "maverick",
+    "gxt": "MAVERIC",
+    "notes": null
+  },
+  {
+    "id": "488",
+    "hex": "1E8",
+    "name": "News Chopper",
+    "model": "vcnmav",
+    "gxt": "SANMAV",
+    "notes": null
+  },
+  {
+    "id": "489",
+    "hex": "1E9",
+    "name": "Rancher",
+    "model": "rancher",
+    "gxt": "RANCHER",
+    "notes": null
+  },
+  {
+    "id": "490",
+    "hex": "1EA",
+    "name": "FBI Rancher",
+    "model": "fbiranch",
+    "gxt": "FBIRANC",
+    "notes": null
+  },
+  {
+    "id": "491",
+    "hex": "1EB",
+    "name": "Virgo",
+    "model": "virgo",
+    "gxt": "VIRGO",
+    "notes": null
+  },
+  {
+    "id": "492",
+    "hex": "1EC",
+    "name": "Greenwood",
+    "model": "greenwoo",
+    "gxt": "GREENWO",
+    "notes": null
+  },
+  {
+    "id": "493",
+    "hex": "1ED",
+    "name": "Jetmax",
+    "model": "jetmax",
+    "gxt": "JETMAX",
+    "notes": null
+  },
+  {
+    "id": "494",
+    "hex": "1EE",
+    "name": "Hotring Racer",
+    "model": "hotring",
+    "gxt": "HOTRING",
+    "notes": null
+  },
+  {
+    "id": "495",
+    "hex": "1EF",
+    "name": "Sandking",
+    "model": "sandking",
+    "gxt": "SANDKIN",
+    "notes": null
+  },
+  {
+    "id": "496",
+    "hex": "1F0",
+    "name": "Blista Compact",
+    "model": "blistac",
+    "gxt": "BLISTAC",
+    "notes": null
+  },
+  {
+    "id": "497",
+    "hex": "1F1",
+    "name": "Police Maverick",
+    "model": "polmav",
+    "gxt": "POLMAV",
+    "notes": null
+  },
+  {
+    "id": "498",
+    "hex": "1F2",
+    "name": "Boxville",
+    "model": "boxville",
+    "gxt": "BOXVILL",
+    "notes": null
+  },
+  {
+    "id": "499",
+    "hex": "1F3",
+    "name": "Benson",
+    "model": "benson",
+    "gxt": "BENSON",
+    "notes": null
+  },
+  {
+    "id": "500",
+    "hex": "1F4",
+    "name": "Mesa",
+    "model": "mesa",
+    "gxt": "MESAA",
+    "notes": null
+  },
+  {
+    "id": "501",
+    "hex": "1F5",
+    "name": "RC Goblin",
+    "model": "rcgoblin",
+    "gxt": "RCGOBLI",
+    "notes": null
+  },
+  {
+    "id": "502",
+    "hex": "1F6",
+    "name": "Hotring Racer",
+    "model": "hotrina",
+    "gxt": "HOTRINA",
+    "notes": null
+  },
+  {
+    "id": "503",
+    "hex": "1F7",
+    "name": "Hotring Racer",
+    "model": "hotrinb",
+    "gxt": "HOTRINB",
+    "notes": null
+  },
+  {
+    "id": "504",
+    "hex": "1F8",
+    "name": "Bloodring Banger",
+    "model": "bloodra",
+    "gxt": "BLOODRA",
+    "notes": null
+  },
+  {
+    "id": "505",
+    "hex": "1F9",
+    "name": "Rancher",
+    "model": "rnchlure",
+    "gxt": "RANCHER",
+    "notes": null
+  },
+  {
+    "id": "506",
+    "hex": "1FA",
+    "name": "Super GT",
+    "model": "supergt",
+    "gxt": "SUPERGT",
+    "notes": null
+  },
+  {
+    "id": "507",
+    "hex": "1FB",
+    "name": "Elegant",
+    "model": "elegant",
+    "gxt": "ELEGANT",
+    "notes": null
+  },
+  {
+    "id": "508",
+    "hex": "1FC",
+    "name": "Journey",
+    "model": "journey",
+    "gxt": "JOURNEY",
+    "notes": null
+  },
+  {
+    "id": "509",
+    "hex": "1FD",
+    "name": "Bike",
+    "model": "bike",
+    "gxt": "BIKE",
+    "notes": null
+  },
+  {
+    "id": "510",
+    "hex": "1FE",
+    "name": "Mountain Bike",
+    "model": "mtbike",
+    "gxt": "MTBIKE",
+    "notes": null
+  },
+  {
+    "id": "511",
+    "hex": "1FF",
+    "name": "Beagle",
+    "model": "beagle",
+    "gxt": "BEAGLE",
+    "notes": null
+  },
+  {
+    "id": "512",
+    "hex": "200",
+    "name": "Cropduster",
+    "model": "cropdust",
+    "gxt": "CROPDST",
+    "notes": null
+  },
+  {
+    "id": "513",
+    "hex": "201",
+    "name": "Stuntplane",
+    "model": "stunt",
+    "gxt": "STUNT",
+    "notes": null
+  },
+  {
+    "id": "514",
+    "hex": "202",
+    "name": "Tanker",
+    "model": "petro",
+    "gxt": "PETROL",
+    "notes": null
+  },
+  {
+    "id": "515",
+    "hex": "203",
+    "name": "Roadtrain",
+    "model": "rdtrain",
+    "gxt": "RDTRAIN",
+    "notes": null
+  },
+  {
+    "id": "516",
+    "hex": "204",
+    "name": "Nebula",
+    "model": "nebula",
+    "gxt": "NEBULA",
+    "notes": null
+  },
+  {
+    "id": "517",
+    "hex": "205",
+    "name": "Majestic",
+    "model": "majestic",
+    "gxt": "MAJESTC",
+    "notes": null
+  },
+  {
+    "id": "518",
+    "hex": "206",
+    "name": "Buccaneer",
+    "model": "buccanee",
+    "gxt": "BUCCANE",
+    "notes": null
+  },
+  {
+    "id": "519",
+    "hex": "207",
+    "name": "Shamal",
+    "model": "shamal",
+    "gxt": "SHAMAL",
+    "notes": null
+  },
+  {
+    "id": "520",
+    "hex": "208",
+    "name": "Hydra",
+    "model": "hydra",
+    "gxt": "HYDRA",
+    "notes": null
+  },
+  {
+    "id": "521",
+    "hex": "209",
+    "name": "FCR-900",
+    "model": "fcr900",
+    "gxt": "FCR900",
+    "notes": null
+  },
+  {
+    "id": "522",
+    "hex": "20A",
+    "name": "NRG-500",
+    "model": "nrg500",
+    "gxt": "NRG500",
+    "notes": null
+  },
+  {
+    "id": "523",
+    "hex": "20B",
+    "name": "HPV1000",
+    "model": "copbike",
+    "gxt": "HPV1000",
+    "notes": null
+  },
+  {
+    "id": "524",
+    "hex": "20C",
+    "name": "Cement Truck",
+    "model": "cement",
+    "gxt": "CEMENT",
+    "notes": null
+  },
+  {
+    "id": "525",
+    "hex": "20D",
+    "name": "Towtruck",
+    "model": "towtruck",
+    "gxt": "TOWTRUK",
+    "notes": null
+  },
+  {
+    "id": "526",
+    "hex": "20E",
+    "name": "Fortune",
+    "model": "fortune",
+    "gxt": "FORTUNE",
+    "notes": null
+  },
+  {
+    "id": "527",
+    "hex": "20F",
+    "name": "Cadrona",
+    "model": "cadrona",
+    "gxt": "CADRONA",
+    "notes": null
+  },
+  {
+    "id": "528",
+    "hex": "210",
+    "name": "FBI Truck",
+    "model": "fbitruck",
+    "gxt": "FBITRUK",
+    "notes": null
+  },
+  {
+    "id": "529",
+    "hex": "211",
+    "name": "Willard",
+    "model": "willard",
+    "gxt": "WILLARD",
+    "notes": null
+  },
+  {
+    "id": "530",
+    "hex": "212",
+    "name": "Forklift",
+    "model": "forklift",
+    "gxt": "FORKLFT",
+    "notes": null
+  },
+  {
+    "id": "531",
+    "hex": "213",
+    "name": "Tractor",
+    "model": "tractor",
+    "gxt": "TRACTOR",
+    "notes": null
+  },
+  {
+    "id": "532",
+    "hex": "214",
+    "name": "Combine Harvester",
+    "model": "combine",
+    "gxt": "COMBINE",
+    "notes": null
+  },
+  {
+    "id": "533",
+    "hex": "215",
+    "name": "Feltzer",
+    "model": "feltzer",
+    "gxt": "FELTZER",
+    "notes": null
+  },
+  {
+    "id": "534",
+    "hex": "216",
+    "name": "Remington",
+    "model": "remingtn",
+    "gxt": "REMING",
+    "notes": null
+  },
+  {
+    "id": "535",
+    "hex": "217",
+    "name": "Slamvan",
+    "model": "slamvan",
+    "gxt": "SLAMVAN",
+    "notes": null
+  },
+  {
+    "id": "536",
+    "hex": "218",
+    "name": "Blade",
+    "model": "blade",
+    "gxt": "BLADE",
+    "notes": null
+  },
+  {
+    "id": "537",
+    "hex": "219",
+    "name": "Freight",
+    "model": "freight",
+    "gxt": "FREIGHT",
+    "notes": null
+  },
+  {
+    "id": "538",
+    "hex": "21A",
+    "name": "Brown Streak",
+    "model": "streak",
+    "gxt": "STREAK",
+    "notes": null
+  },
+  {
+    "id": "539",
+    "hex": "21B",
+    "name": "Vortex",
+    "model": "vortex",
+    "gxt": "VORTEX",
+    "notes": null
+  },
+  {
+    "id": "540",
+    "hex": "21C",
+    "name": "Vincent",
+    "model": "vincent",
+    "gxt": "VINCENT",
+    "notes": null
+  },
+  {
+    "id": "541",
+    "hex": "21D",
+    "name": "Bullet",
+    "model": "bullet",
+    "gxt": "BULLET",
+    "notes": null
+  },
+  {
+    "id": "542",
+    "hex": "21E",
+    "name": "Clover",
+    "model": "clover",
+    "gxt": "CLOVER",
+    "notes": null
+  },
+  {
+    "id": "543",
+    "hex": "21F",
+    "name": "Sadler",
+    "model": "sadler",
+    "gxt": "SADLER",
+    "notes": null
+  },
+  {
+    "id": "544",
+    "hex": "220",
+    "name": "Fire Truck",
+    "model": "firela",
+    "gxt": "FIRELA",
+    "notes": null
+  },
+  {
+    "id": "545",
+    "hex": "221",
+    "name": "Hustler",
+    "model": "hustler",
+    "gxt": "HUSTLER",
+    "notes": null
+  },
+  {
+    "id": "546",
+    "hex": "222",
+    "name": "Intruder",
+    "model": "intruder",
+    "gxt": "INTRUDR",
+    "notes": null
+  },
+  {
+    "id": "547",
+    "hex": "223",
+    "name": "Primo",
+    "model": "primo",
+    "gxt": "PRIMO",
+    "notes": null
+  },
+  {
+    "id": "548",
+    "hex": "224",
+    "name": "Cargobob",
+    "model": "cargobob",
+    "gxt": "CARGOBB",
+    "notes": null
+  },
+  {
+    "id": "549",
+    "hex": "225",
+    "name": "Tampa",
+    "model": "tampa",
+    "gxt": "TAMPA",
+    "notes": null
+  },
+  {
+    "id": "550",
+    "hex": "226",
+    "name": "Sunrise",
+    "model": "sunrise",
+    "gxt": "SUNRISE",
+    "notes": null
+  },
+  {
+    "id": "551",
+    "hex": "227",
+    "name": "Merit",
+    "model": "merit",
+    "gxt": "MERIT",
+    "notes": null
+  },
+  {
+    "id": "552",
+    "hex": "228",
+    "name": "Utility Van",
+    "model": "utility",
+    "gxt": "UTILITY",
+    "notes": null
+  },
+  {
+    "id": "553",
+    "hex": "229",
+    "name": "Nevada",
+    "model": "nevada",
+    "gxt": "NEVADA",
+    "notes": null
+  },
+  {
+    "id": "554",
+    "hex": "22A",
+    "name": "Yosemite",
+    "model": "yosemite",
+    "gxt": "YOSEMIT",
+    "notes": null
+  },
+  {
+    "id": "555",
+    "hex": "22B",
+    "name": "Windsor",
+    "model": "windsor",
+    "gxt": "WINDSOR",
+    "notes": null
+  },
+  {
+    "id": "556",
+    "hex": "22C",
+    "name": "Monster",
+    "model": "monstera",
+    "gxt": "MONSTA",
+    "notes": null
+  },
+  {
+    "id": "557",
+    "hex": "22D",
+    "name": "Monster",
+    "model": "monsterb",
+    "gxt": "MONSTB",
+    "notes": null
+  },
+  {
+    "id": "558",
+    "hex": "22E",
+    "name": "Uranus",
+    "model": "uranus",
+    "gxt": "URANUS",
+    "notes": null
+  },
+  {
+    "id": "559",
+    "hex": "22F",
+    "name": "Jester",
+    "model": "jester",
+    "gxt": "JESTER",
+    "notes": null
+  },
+  {
+    "id": "560",
+    "hex": "230",
+    "name": "Sultan",
+    "model": "sultan",
+    "gxt": "SULTAN",
+    "notes": null
+  },
+  {
+    "id": "561",
+    "hex": "231",
+    "name": "Stratum",
+    "model": "stratum",
+    "gxt": "STRATUM",
+    "notes": null
+  },
+  {
+    "id": "562",
+    "hex": "232",
+    "name": "Elegy",
+    "model": "elegy",
+    "gxt": "ELEGY",
+    "notes": null
+  },
+  {
+    "id": "563",
+    "hex": "233",
+    "name": "Raindance",
+    "model": "raindanc",
+    "gxt": "RAINDNC",
+    "notes": null
+  },
+  {
+    "id": "564",
+    "hex": "234",
+    "name": "RC Tiger",
+    "model": "rctiger",
+    "gxt": "RCTIGER",
+    "notes": null
+  },
+  {
+    "id": "565",
+    "hex": "235",
+    "name": "Flash",
+    "model": "flash",
+    "gxt": "FLASH",
+    "notes": null
+  },
+  {
+    "id": "566",
+    "hex": "236",
+    "name": "Tahoma",
+    "model": "tahoma",
+    "gxt": "TAHOMA",
+    "notes": null
+  },
+  {
+    "id": "567",
+    "hex": "237",
+    "name": "Savanna",
+    "model": "savanna",
+    "gxt": "SAVANNA",
+    "notes": null
+  },
+  {
+    "id": "568",
+    "hex": "238",
+    "name": "Bandito",
+    "model": "bandito",
+    "gxt": "BANDITO",
+    "notes": null
+  },
+  {
+    "id": "569",
+    "hex": "239",
+    "name": "Freight",
+    "model": "freiflat",
+    "gxt": "FRFLAT",
+    "notes": null
+  },
+  {
+    "id": "570",
+    "hex": "23A",
+    "name": "Brown Streak",
+    "model": "streakc",
+    "gxt": "STREAKC",
+    "notes": null
+  },
+  {
+    "id": "571",
+    "hex": "23B",
+    "name": "Kart",
+    "model": "kart",
+    "gxt": "KART",
+    "notes": null
+  },
+  {
+    "id": "572",
+    "hex": "23C",
+    "name": "Mower",
+    "model": "mower",
+    "gxt": "MOWER",
+    "notes": null
+  },
+  {
+    "id": "573",
+    "hex": "23D",
+    "name": "Dune",
+    "model": "duneride",
+    "gxt": "DUNE",
+    "notes": null
+  },
+  {
+    "id": "574",
+    "hex": "23E",
+    "name": "Sweeper",
+    "model": "sweeper",
+    "gxt": "SWEEPER",
+    "notes": null
+  },
+  {
+    "id": "575",
+    "hex": "23F",
+    "name": "Broadway",
+    "model": "broadway",
+    "gxt": "BROADWY",
+    "notes": null
+  },
+  {
+    "id": "576",
+    "hex": "240",
+    "name": "Tornado",
+    "model": "tornado",
+    "gxt": "TORNADO",
+    "notes": null
+  },
+  {
+    "id": "577",
+    "hex": "241",
+    "name": "AT-400",
+    "model": "at400",
+    "gxt": "AT400",
+    "notes": null
+  },
+  {
+    "id": "578",
+    "hex": "242",
+    "name": "DFT-30",
+    "model": "dft30",
+    "gxt": "DFT30",
+    "notes": null
+  },
+  {
+    "id": "579",
+    "hex": "243",
+    "name": "Huntley",
+    "model": "huntley",
+    "gxt": "HUNTLEY",
+    "notes": null
+  },
+  {
+    "id": "580",
+    "hex": "244",
+    "name": "Stafford",
+    "model": "stafford",
+    "gxt": "STAFFRD",
+    "notes": null
+  },
+  {
+    "id": "581",
+    "hex": "245",
+    "name": "BF-400",
+    "model": "bf400",
+    "gxt": "BF400",
+    "notes": null
+  },
+  {
+    "id": "582",
+    "hex": "246",
+    "name": "Newsvan",
+    "model": "newsvan",
+    "gxt": "NEWSVAN",
+    "notes": null
+  },
+  {
+    "id": "583",
+    "hex": "247",
+    "name": "Tug",
+    "model": "tug",
+    "gxt": "TUG",
+    "notes": null
+  },
+  {
+    "id": "584",
+    "hex": "248",
+    "name": "Petrol Truck",
+    "model": "petrotr",
+    "gxt": "PETROTR",
+    "notes": null
+  },
+  {
+    "id": "585",
+    "hex": "249",
+    "name": "Emperor",
+    "model": "emperor",
+    "gxt": "EMPEROR",
+    "notes": null
+  },
+  {
+    "id": "586",
+    "hex": "24A",
+    "name": "Wayfarer",
+    "model": "wayfarer",
+    "gxt": "WAYFARE",
+    "notes": null
+  },
+  {
+    "id": "587",
+    "hex": "24B",
+    "name": "Euros",
+    "model": "euros",
+    "gxt": "EUROS",
+    "notes": null
+  },
+  {
+    "id": "588",
+    "hex": "24C",
+    "name": "Hotdog",
+    "model": "hotdog",
+    "gxt": "HOTDOG",
+    "notes": "+40 calories (Stat 245)"
+  },
+  {
+    "id": "589",
+    "hex": "24D",
+    "name": "Club",
+    "model": "club",
+    "gxt": "CLUB",
+    "notes": null
+  },
+  {
+    "id": "590",
+    "hex": "24E",
+    "name": "FRBOX",
+    "model": "freibox",
+    "gxt": "FRBOX",
+    "notes": null
+  },
+  {
+    "id": "591",
+    "hex": "24F",
+    "name": "ARTICT3",
+    "model": "artict3",
+    "gxt": "ARTICT3",
+    "notes": null
+  },
+  {
+    "id": "592",
+    "hex": "250",
+    "name": "Andromada",
+    "model": "androm",
+    "gxt": "ANDROM",
+    "notes": null
+  },
+  {
+    "id": "593",
+    "hex": "251",
+    "name": "Dodo",
+    "model": "dodo",
+    "gxt": "DODO",
+    "notes": null
+  },
+  {
+    "id": "594",
+    "hex": "252",
+    "name": "RC Cam",
+    "model": "rccam",
+    "gxt": "RCCAM",
+    "notes": null
+  },
+  {
+    "id": "595",
+    "hex": "253",
+    "name": "Launch",
+    "model": "launch",
+    "gxt": "LAUNCH",
+    "notes": null
+  },
+  {
+    "id": "596",
+    "hex": "254",
+    "name": "Police",
+    "model": "copcarla",
+    "gxt": "POLICAR",
+    "notes": "Shotgun with 5 ammo"
+  },
+  {
+    "id": "597",
+    "hex": "255",
+    "name": "Police",
+    "model": "copcarsf",
+    "gxt": "POLICAR",
+    "notes": null
+  },
+  {
+    "id": "598",
+    "hex": "256",
+    "name": "Police",
+    "model": "copcarvg",
+    "gxt": "POLICAR",
+    "notes": null
+  },
+  {
+    "id": "599",
+    "hex": "257",
+    "name": "Ranger",
+    "model": "copcarru",
+    "gxt": "RANGER",
+    "notes": null
+  },
+  {
+    "id": "600",
+    "hex": "258",
+    "name": "Picador",
+    "model": "picador",
+    "gxt": "PICADOR",
+    "notes": null
+  },
+  {
+    "id": "601",
+    "hex": "259",
+    "name": "S.W.A.T.",
+    "model": "swatvan",
+    "gxt": "SWATVAN",
+    "notes": null
+  },
+  {
+    "id": "602",
+    "hex": "25A",
+    "name": "Alpha",
+    "model": "alpha",
+    "gxt": "ALPHA",
+    "notes": null
+  },
+  {
+    "id": "603",
+    "hex": "25B",
+    "name": "Phoenix",
+    "model": "phoenix",
+    "gxt": "PHOENIX",
+    "notes": null
+  },
+  {
+    "id": "604",
+    "hex": "25C",
+    "name": "Glendale",
+    "model": "glenshit",
+    "gxt": "GLENSHI",
+    "notes": null
+  },
+  {
+    "id": "605",
+    "hex": "25D",
+    "name": "Sadler",
+    "model": "sadlshit",
+    "gxt": "SADLSHI",
+    "notes": null
+  },
+  {
+    "id": "606",
+    "hex": "25E",
+    "name": "BAGBOXA",
+    "model": "bagboxa",
+    "gxt": "BAGBOXA",
+    "notes": null
+  },
+  {
+    "id": "607",
+    "hex": "25F",
+    "name": "BAGBOXB",
+    "model": "bagboxb",
+    "gxt": "BAGBOXB",
+    "notes": null
+  },
+  {
+    "id": "608",
+    "hex": "260",
+    "name": "TUGSTAI",
+    "model": "tugstair",
+    "gxt": "TUGSTAI",
+    "notes": null
+  },
+  {
+    "id": "609",
+    "hex": "261",
+    "name": "Boxville",
+    "model": "boxburg",
+    "gxt": "BOXBURG",
+    "notes": null
+  },
+  {
+    "id": "610",
+    "hex": "262",
+    "name": "FARMTR1",
+    "model": "farmtr1",
+    "gxt": "FARMTR1",
+    "notes": null
+  },
+  {
+    "id": "611",
+    "hex": "263",
+    "name": "UTILTR1",
+    "model": "utiltr1",
+    "gxt": "UTILTR1",
+    "notes": null
+  },
+  {
+    "id": null,
+    "hex": null,
+    "name": null,
+    "model": null,
+    "gxt": null,
+    "notes": null
+  }
+]
